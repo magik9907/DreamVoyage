@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	-webkit-border-radius: 0px;
+	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgMjU1IDI1NSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjU1IDI1NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnIGlkPSJhcnJvdy1kcm9wLWRvd24iPgoJCTxwb2x5Z29uIHBvaW50cz0iMCw2My43NSAxMjcuNSwxOTEuMjUgMjU1LDYzLjc1ICAgIiBmaWxsPSIjRkZGRkZGIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+	background-size: auto 14px;
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-color: transparent;
+	padding-right: 35px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+input:not([type="checkbox"]):not([type="radio"]),
+select,
+textarea {
+	display: block;
+	width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+	outline: none;
+}
+
+textarea {
+	resize: vertical;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ::-webkit-inputz-placeholder { Chrome/Opera/Safari
+	color: #9b94aa;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300; 
+}
+::-moz-placeholder { Firefox 19+
+	color: #9b94aa;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300; 
+}
+:-ms-input-placeholder { IE 10+
+	color: #9b94aa;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300; 
+}
+:-moz-placeholder { Firefox 18-
+	color: #9b94aa;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300; 
+}
+
+ */
+ 

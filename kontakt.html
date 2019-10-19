@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>DreamVoyage</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex nofollow" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Oswald:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+
+
+	<!--
+		font-family: 'Raleway', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	-->
+
+	<script defer src="https://use.fontawesome.com/releases/v5.6.1/js/brands.js" integrity="sha384-rsLJp1pKbmeEMVcdsNJfAWZ9FQP5CrQt6Vikj/usZcTgrD28FhqYqKJn5XIaoXjm" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.6.1/js/fontawesome.js" integrity="sha384-T6YzYwAGZAItTIkYlBzfwqa07o9R1AND3Lgt6Or6c5IdukY7tqShoryqwpKrpeIB" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/tools.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+	<header class="header-content">
+		<div class="short-banner clearfix">
+			<p class="promo-text"><span class="text-pink">Darmowa dostawa od</span> 200 PLN</p>
+			<div class="contact-short clearfix">
+				<a href="tel:123123123" class="phone">123 123 123</a>
+				<a href="mailto:biuro@dremvoyage.com" class="mail">biuro@dremvoyage.com</a>
+			</div>
+		</div>
+
+		<div class="promo-banner ">
+			<div class="center-wrapper">
+				<div class=" clearfix">
+					<a href="index.html">
+						<span class="logo">DreamVoyage</span>
+					</a>
+					<nav class="header-nav">
+						<button type="button" id="main-nav-btn" class="nav-btn js--toggle" data-target=".header-nav .menu">
+							<span class="burger">
+								<span class="bar"></span>
+							</span>
+						</button>
+
+						<ul class="menu">
+							<li>
+								<a href="oferta.html">Oferta</a>
+							</li>
+							<li class="has-submenu">
+								<a href="index.html">Kierunki</a>
+								<ul class="submenu">
+									<li>
+										<a href="index.html#chiny">Chiny</a>
+									</li>
+									<li>
+										<a href="index.html#chorwacja">Chorwacja</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="o-nas.html">O nas</a>
+							</li>
+							<li>
+								<a href="kontakt.html">Kontakt</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="title-content">
+					<h3 class="title">Cudowy Urlop</h3>
+					<p class="subtitle">Spędź niezapomniane chwile w egzotycznym kraju</p>
+				</div>
+
+				<div class="page-nav display-none">
+					<a href="#chiny">Chiny</a>
+					<a href="#chorwacja">Chorwacja</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="center-wrapper sidebar-layout">
+
+		<aside class="aside-nav">
+			<ul>
+				<li><a href="#kontakt">Dane kontaktowe</a></li>
+				<li><a href="#formularz">Formularz zgłoszeniowy</a></li>
+				<li><a href="#jak-dojechac">Jak dojechać</a></li>
+			</ul>
+		</aside>
+
+
+		<main class="main-content">
+			<article>
+				<h1>Kontakt</h1>
+
+				<h2 id="kontakt">Dane kotaktowe</h2>
+
+				<div class="contact-content">
+					<div class="data-content">
+						<p><strong class="address">Dreamvoyage</strong>
+						<span>ul.Handlowa 1<br>15-399 Białystok</span></p>
+						<p><strong>Infolinia</strong>
+						<a href="tel:+48123123123">+48 123 123 123</a></p>
+						<p><strong>E-mail</strong>
+						<a href="mailto:hello@dreamvoyage.com">hello@dreamvoyage.com</a></p>
+					</div>
+
+					<div class="open-hour stick-to-screen">
+
+						<table>
+							<caption class="center-wrapper">Godziny otwarcia</caption>
+							<tr >
+								<td>Poniedziałek</td>
+								<td>10:00-16::00</td>
+							</tr>
+							<tr>
+								<td>Wtorek</td>
+								<td>8:00-16:00</td>
+							</tr>
+							<tr>
+								<td>Środa</td>
+								<td>8:00-16:00</td>
+							</tr>
+							<tr>
+								<td>Czwartek</td>
+								<td>8:00-16:00</td>
+							</tr>
+							<tr>
+								<td>Piątek</td>
+								<td>8:00-16:00</td>
+							</tr>
+							<tr>
+								<td>Sobota</td>
+								<td>8:00-16:00</td>
+							</tr>
+						</table>
+					</div>
+
+				</div>
+
+				<h2 id="formularz">Formularz zgłoszeniowy</h2>
+
+				<form action="#" method="POST" novalidate class="contact-form">
+
+					<div class="form-row">
+						<label for="contact-name" class="input-title required">Imię i nazwisko:</label>
+
+						<div class="input-row">
+							<input type="text" id="contact-name" name="contact[name]" required>
+						</div>
+					</div>
+
+					<div class="form-row">
+						<label for="contact-email" class="input-title required">E-mail:</label>
+						<div class="input-row">
+							<input type="email" id="contact-email" name="contact[email]" required>
+						</div>
+					</div>
+
+					<div class="form-row">
+						<label for="contact-tel" class="input-title ">Telefon:</label>
+						<div class="input-row">
+							<input type="tel" id="contact-tel" name="contact[tel]" placeholder="+XX XXX XXX XXX">
+						</div>
+					</div>
+
+					<div class="form-row">
+						<label for="contact-select" class="required input-title ">Powód kontaktu:</label>
+
+						<div class="input-row">
+							<select name="contact[select]" id="contact-select" required>
+								<option value="">wybierz</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+							</select>
+						</div>
+
+					</div>
+
+					<div class="form-row radio-contain">
+						<span class="required input-title ">Czy jesteś naszym klientem?</span>
+
+						<div class="input-row">
+							<div class="input-container">
+								<input type="radio" id="contact-client-yes" name="contact[client]" value="yes" >
+								<label for="contact-client-yes"><span class="radio"></span>Tak</label>
+							</div>
+
+							<div class="input-container">
+								<input type="radio" id="contact-client-no" name="contact[client]" value="no" >
+								<label for="contact-client-no" ><span class="radio"></span>Nie</label>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="form-row box-contain">
+						<span class="input-title required">Preferowany dzień kontaktu</span>
+
+						<div class="input-row">
+							<div class="input-container">
+								<input type="checkbox" id="contact-day-mon" name="contact[day][]" value="mon" >
+								<label for="contact-day-mon"><span class="checkbox"></span>Poniedziałek</label>
+							</div>
+
+							<div class="input-container">
+								<input type="checkbox" id="contact-day-tue" name="contact[day][]" value="tue" >
+								<label for="contact-day-tue"><span class="checkbox"></span>Wtorek</label>
+							</div>
+
+							<div class="input-container">
+								<input type="checkbox" id="contact-day-wen" name="contact[day][]" value="wen" >
+								<label for="contact-day-wen"><span class="checkbox"></span>Środa</label>
+							</div>
+
+							<div class="input-container">
+								<input type="checkbox" id="contact-day-thu" name="contact[day][]" value="thu" >
+								<label for="contact-day-thu"><span class="checkbox"></span>Czwartek</label>
+							</div>
+
+							<div class="input-container">
+								<input type="checkbox" id="contact-day-fri" name="contact[day][]" value="fri" >
+								<label for="contact-day-fri"><span class="checkbox"></span>Piątek</label>
+							</div>
+
+							<div class="input-container">
+								<input type="checkbox" id="contact-day-sat" name="contact[day][]" value="sat" >
+								<label for="contact-day-sat"><span class="checkbox"></span>Sobota</label>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="form-row text-form">
+						<label for="contact-text" class="input-title required">Wiadomość:</label>
+						<div class="input-row">
+							<textarea name="contact[text]" id="contact-text" required	></textarea>
+
+							<div class="letters-count"><span class="letter red">0</span>/200</div>
+						</div>
+					</div>
+
+
+					<div class="short-row input-row">
+						<input type="checkbox" id="contact-status" name="contact[status]" value="true" p>
+						<label for="contact-status"><span class="checkbox"></span>Zgadzam się z regulaminem serwisu</label>
+
+					</div>
+					<div class="short-row">
+						<button type="submit">Wyślij</button>
+					</div>
+
+				</form>
+
+
+
+				<h2 id="jak-dojechac">Jak dojechać</h2>
+
+					<div class="map stick-to-screen">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1196.6774286412353!2d23.163324358321418!3d53.13972570394963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffc1906823531%3A0xf5c1f13c06b665c6!2sNowogr%C3%B3dzka+1%2C+15-115+Bia%C5%82ystok!5e0!3m2!1spl!2spl!4v1547490287692" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+			</article>
+		</main>
+	</div>
+
+	<footer class="footer-content">
+		<div class="center-wrapper">
+			<div class="fast-nav">
+				<section>
+					<h6>O Nas</h6>
+
+					<ul>
+						<li><a href="#">Kim jesteśmy</a></li>
+						<li><a href="#">Nasze motto</a></li>
+						<li><a href="#">Historia firmy</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h6>Kierunki</h6>
+
+					<ul>
+						<li><a href="#">Chiny</a></li>
+						<li><a href="#">Chorwacja</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h6>Dla podróznego</h6>
+
+					<ul>
+						<li><a href="#">Jak zamawiać</a></li>
+						<li><a href="#">Regulamin sklepu</a></li>
+						<li><a href="#">Odstąpienie od umowy</a></li>
+					</ul>
+				</section>
+
+				<section class="social-media">
+					<h6>Social Media</h6>
+
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				</section>
+			</div>
+		</div>
+
+		<div class="copy-content">
+			<div class="center-wrapper">
+				<a href="index.html">
+					<span class="logo">DreamVoyage</span>
+				</a>
+				<p>Copyright &copy; 2019</p>
+			</div>
+		</div>
+
+	</footer>
+
+	<script src="js/toggle-nav.js"></script>
+    <!-- <script src="js/field-dirty-snippet.js"></script> -->
+    <script src="js/form-validator.js"></script>
+</body>
+
+</html>
